@@ -1,0 +1,16 @@
+{
+  "name": "sam-cloud-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cf-send-email/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.19.0",
+    "@types/google-cloud__pubsub": "^0.18.0",
+    "@types/postmark": "1.3.1",
+    "cloud-functions-runtime-config": "^0.4.0",
+    "postmark": "1.5.0",
+    "tslib": "^1.9.3"
+  }
+}
